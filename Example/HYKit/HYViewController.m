@@ -7,6 +7,7 @@
 //
 
 #import "HYViewController.h"
+#import "HYKit.h"
 
 @interface HYViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"%@", [NSString md5StringWithString:@"yclzone"]);
 }
 
 - (void)didReceiveMemoryWarning

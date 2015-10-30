@@ -1,0 +1,32 @@
+PODS:
+  - Expecta (1.0.3)
+  - Expecta+Snapshots (2.0.0):
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0.3)
+  - FBSnapshotTestCase (2.0.7):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
+  - FBSnapshotTestCase/Core (2.0.7)
+  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+    - FBSnapshotTestCase/Core
+  - HYKit (0.1.0)
+  - Specta (1.0.4)
+
+DEPENDENCIES:
+  - Expecta
+  - Expecta+Snapshots
+  - FBSnapshotTestCase
+  - HYKit (from `../`)
+  - Specta
+
+EXTERNAL SOURCES:
+  HYKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: 9d1bff6c8b0eeee73a166a2ee898892478927a15
+  Expecta+Snapshots: 29b38dd695bc72a0ed2bea833937d78df41943ba
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+  HYKit: 74cf9c08eea140bf252eee233b3f1f373ffa74d6
+  Specta: 69bb134672aae190a1379ff91df07dad8dd1f869
+
+COCOAPODS: 0.39.0

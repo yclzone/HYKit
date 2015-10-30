@@ -1,0 +1,6 @@
+framework module HYKit {
+  umbrella header "HYKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
