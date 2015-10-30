@@ -9,7 +9,6 @@
 #import "UIImage+Scale.h"
 #import "UITableView+HYCategories.h"
 #import "UITextField+HYCategory.h"
-#import "UITextView+Placeholder.h"
 #import "UIView+HYCategory.h"
 
 FOUNDATION_EXPORT double HYKitVersionNumber;

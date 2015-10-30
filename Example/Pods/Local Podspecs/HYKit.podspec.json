@@ -1,6 +1,6 @@
 {
   "name": "HYKit",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "summary": "HYKit is a collection of common used category of classes.",
   "description": "HYKit is a collection of common used category of classes. NSString, NSDate, NSObject...",
   "homepage": "https://github.com/yclzone/HYKit",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/yclzone/HYKit.git",
-    "tag": "0.1.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "7.0"
@@ -20,6 +20,11 @@
   "resource_bundles": {
     "HYKit": [
       "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "UITextView+Placeholder": [
+
     ]
   }
 }
