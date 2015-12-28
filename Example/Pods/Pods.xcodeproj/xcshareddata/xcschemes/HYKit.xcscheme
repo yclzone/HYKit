@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EADF91B14BECC7848CEEF3E5E25E5C62"
+               BlueprintIdentifier = "E8283C420BEE2C3265797ABA0FAF89FD"
                BuildableName = "HYKit.framework"
                BlueprintName = "HYKit"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EADF91B14BECC7848CEEF3E5E25E5C62"
+            BlueprintIdentifier = "E8283C420BEE2C3265797ABA0FAF89FD"
             BuildableName = "HYKit.framework"
             BlueprintName = "HYKit"
             ReferencedContainer = "container:Pods.xcodeproj">

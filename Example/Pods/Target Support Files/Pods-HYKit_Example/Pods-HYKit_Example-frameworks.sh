@@ -84,10 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-HYKit_Example/AFNetworking.framework"
   install_framework "Pods-HYKit_Example/HYKit.framework"
-  install_framework "Pods-HYKit_Example/UITextView_Placeholder.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-HYKit_Example/AFNetworking.framework"
   install_framework "Pods-HYKit_Example/HYKit.framework"
-  install_framework "Pods-HYKit_Example/UITextView_Placeholder.framework"
 fi
