@@ -9,18 +9,7 @@
 #ifndef HYKit_h
 #define HYKit_h
 
-// Foundation
-#import "NSString+HYCategory.h"
-#import "NSDate+HYCategory.h"
-#import "NSDictionary+HYParametersSign.h"
-
-// UIKit
-#import "UIView+HYCategory.h"
-#import "UIImage+Scale.h"
-#import "UITextField+HYCategory.h"
-#import "UITableView+HYCategories.h"
-#import "UICollectionView+HYCategory.h"
-#import "CALayer+IBConfiguration.h"
-#import "UITextView+Placeholder.h"
+#import "HYCategory.h"
+#import "HYTool.h"
 
 #endif /* HYKit_h */

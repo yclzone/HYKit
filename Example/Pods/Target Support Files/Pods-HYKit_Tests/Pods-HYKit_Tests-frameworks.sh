@@ -84,16 +84,16 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-HYKit_Tests/AFNetworking.framework"
   install_framework "Pods-HYKit_Tests/HYKit.framework"
-  install_framework "Pods-HYKit_Tests/UITextView_Placeholder.framework"
   install_framework "Pods-HYKit_Tests/Expecta.framework"
   install_framework "Pods-HYKit_Tests/Expecta_Snapshots.framework"
   install_framework "Pods-HYKit_Tests/FBSnapshotTestCase.framework"
   install_framework "Pods-HYKit_Tests/Specta.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-HYKit_Tests/AFNetworking.framework"
   install_framework "Pods-HYKit_Tests/HYKit.framework"
-  install_framework "Pods-HYKit_Tests/UITextView_Placeholder.framework"
   install_framework "Pods-HYKit_Tests/Expecta.framework"
   install_framework "Pods-HYKit_Tests/Expecta_Snapshots.framework"
   install_framework "Pods-HYKit_Tests/FBSnapshotTestCase.framework"
