@@ -32,7 +32,7 @@ HYKit is a collection of common used category of classes. NSString, NSDate, NSOb
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'HYKit' => ['Pod/Assets/*.png']
+    'HYKit' => ['Pod/Resouses/Assets/*.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
