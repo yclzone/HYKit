@@ -113,4 +113,29 @@
 - (CGFloat)centerY {
     return self.center.y;
 }
+
+-(void)setBorderIBColor:(UIColor *)borderIBColor{
+    CALayer *layer = self.layer;
+    layer.borderColor = [borderIBColor CGColor];
+}
+-(UIColor *)borderIBColor{
+    CALayer *layer = self.layer;
+    return  [UIColor colorWithCGColor:[layer borderColor]];;
+}
+-(void)setBorderIBWidth:(CGFloat )borderIBWidth{
+    CALayer *layer = self.layer;
+    layer.borderWidth = borderIBWidth;
+}
+-(CGFloat )borderIBWidth{
+    CALayer *layer = self.layer;
+    return layer.borderWidth;
+}
+-(void)setCornerRadius:(CGFloat)cornerRadius{
+    self.layer.cornerRadius = cornerRadius;
+    self.layer.masksToBounds = YES;
+}
+-(CGFloat)cornerRadius{
+    return self.layer.cornerRadius;
+}
+
 @end

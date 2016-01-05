@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+//IB_DESIGNABLE
 @interface UIView (HY)
 /** frame X */
 @property (nonatomic, assign) CGFloat frameX;
@@ -22,6 +23,9 @@
 /** center Y */
 @property (nonatomic, assign) CGFloat centerY;
 
+@property(nonatomic, strong) IBInspectable UIColor *borderIBColor;
+@property(nonatomic, assign) IBInspectable CGFloat borderIBWidth;
+@property(nonatomic, assign) IBInspectable CGFloat cornerRadius;
 /**
  *  设置圆角
  *

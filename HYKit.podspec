@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "HYKit"
-  s.version          = "0.3.3"
+  s.version          = "0.3.4"
   s.summary          = "HYKit is a collection of common used category of classes."
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ HYKit is a collection of common used category of classes. NSString, NSDate, NSOb
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'HYKit' => ['Pod/Assets/*.png']
+    'HYKit' => ['Pod/Resouses/Assets/*.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
