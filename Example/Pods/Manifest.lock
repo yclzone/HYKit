@@ -23,7 +23,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.0.7)
   - FBSnapshotTestCase/SwiftSupport (2.0.7):
     - FBSnapshotTestCase/Core
-  - HYKit (0.3.3):
+  - HYKit (0.3.4):
     - AFNetworking
   - Specta (1.0.5)
 
@@ -43,7 +43,7 @@ SPEC CHECKSUMS:
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
   Expecta+Snapshots: 29b38dd695bc72a0ed2bea833937d78df41943ba
   FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
-  HYKit: f420fad8d32d700553a1bba5bf90b638fac65aae
+  HYKit: f8f77689a82b50ac6c282de5bdf0bcdaf1c7394e
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
 
 COCOAPODS: 0.39.0

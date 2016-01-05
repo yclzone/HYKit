@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void(^ActionBlock) ();
+typedef void(^HYActionBlock) ();
 
 @interface UIControl (HY) 
 
-- (void) handleControlEvent:(UIControlEvents)event withBlock:(ActionBlock)action;
+- (void) handleControlEvent:(UIControlEvents)event withBlock:(HYActionBlock)action;
 
 @end

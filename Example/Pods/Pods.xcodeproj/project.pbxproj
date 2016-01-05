@@ -83,7 +83,6 @@
 		595A04BC68811583B92D4E64236C0928 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF66C20EA3F2878E04DDF348E8D72A4 /* QuartzCore.framework */; };
 		5A3DED2AC8EC782575EBFF45ED0E3901 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A188DC073680D8AD8FD1012D0D0A097 /* UIKit.framework */; };
 		5B2D4A621D3DA971A474776AF36BB073 /* EXPBlockDefinedMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 272B6B753FF2950EF842B5CAD5B532F6 /* EXPBlockDefinedMatcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		5D2BA0D61C3274C6001A050F /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D2BA0D51C3274C6001A050F /* Asset.xcassets */; };
 		5EA7043FE10E75D02F3C3052AF8B8318 /* EXPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EFB57D15326CF6763C2EB1321533373 /* EXPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F44C1C7D993A5A8CAA7512571725360 /* SPTGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BD446D8134CAC5207CF41866313798C /* SPTGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FF6453E55785669885F626B853FD2AA /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 675BC992DA6154153DCB2685D8BDA862 /* UIProgressView+AFNetworking.m */; };
@@ -406,7 +405,6 @@
 		5B02F686364DBB909CD2580C0D980345 /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "Expecta/NSObject+Expecta.h"; sourceTree = "<group>"; };
 		5B7694F62B0414FD20320194AD7829D9 /* UIAlertView+HY.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+HY.h"; sourceTree = "<group>"; };
 		5C015DEF9014406A02F5D3477BD48FA8 /* NSString+HY.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+HY.m"; sourceTree = "<group>"; };
-		5D2BA0D51C3274C6001A050F /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
 		5D85FBB709F671DFDC0A723319E939E8 /* EXPMatchers+beCloseTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beCloseTo.m"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.m"; sourceTree = "<group>"; };
 		5DD14E1032447A8352DFFEBF86AC3ED7 /* EXPUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPUnsupportedObject.h; path = Expecta/EXPUnsupportedObject.h; sourceTree = "<group>"; };
 		5DED9DAA81393078173C38B2B9653A3D /* EXPExpect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPExpect.h; path = Expecta/EXPExpect.h; sourceTree = "<group>"; };
@@ -855,14 +853,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		5D2BA0D41C3274C6001A050F /* Resouses */ = {
-			isa = PBXGroup;
-			children = (
-				5D2BA0D51C3274C6001A050F /* Asset.xcassets */,
-			);
-			path = Resouses;
-			sourceTree = "<group>";
-		};
 		5D76874A8C1800AB5CFC3E4B2C29372B /* Expecta+Snapshots */ = {
 			isa = PBXGroup;
 			children = (
@@ -969,7 +959,6 @@
 		90EACA9AD6F04BFA76DC15E4BBF0F112 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5D2BA0D41C3274C6001A050F /* Resouses */,
 				F6F8C69DFDDD9E8320236429C70EE980 /* Classes */,
 			);
 			path = Pod;
@@ -1597,7 +1586,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D2BA0D61C3274C6001A050F /* Asset.xcassets in Resources */,
 				19C98E320FE7D0CEAD1837B40CC4A0B9 /* HYKit.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

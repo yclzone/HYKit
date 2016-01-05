@@ -13,7 +13,7 @@
 
 static const char JWassociatedkey;
 
-- (void)handleControlEvent:(UIControlEvents)event withBlock:(ActionBlock)block {
+- (void)handleControlEvent:(UIControlEvents)event withBlock:(HYActionBlock)block {
     
     objc_setAssociatedObject(self, &JWassociatedkey, block, OBJC_ASSOCIATION_COPY);
     [self addTarget:self action:@selector(callActionBlock:) forControlEvents:event];
@@ -21,7 +21,7 @@ static const char JWassociatedkey;
 
 
 - (void)callActionBlock:(id)sender {
-    ActionBlock block = objc_getAssociatedObject(self, &JWassociatedkey);
+    HYActionBlock block = objc_getAssociatedObject(self, &JWassociatedkey);
     if (block) {
         block();
     }
