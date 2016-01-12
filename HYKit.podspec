@@ -37,5 +37,5 @@ HYKit is a collection of common used category of classes. NSString, NSDate, NSOb
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
     s.frameworks = 'UIKit'
-    s.dependency 'AFNetworking'
+    s.dependency 'AFNetworking', '~> 3.0'
 end
