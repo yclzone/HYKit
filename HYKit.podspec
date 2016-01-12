@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "HYKit"
-  s.version          = "0.3.4"
+  s.version          = "0.3.5"
   s.summary          = "HYKit is a collection of common used category of classes."
 
 # This description is used to generate tags and improve search results.
